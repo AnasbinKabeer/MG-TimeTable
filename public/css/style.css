@@ -1,0 +1,422 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans+Semi+Condensed:wght@300;600;800&family=Sofia+Sans:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, .category {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
+
+/* Nav Styling */
+
+.nav_container{
+    z-index: 10;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background: #00dc6a;
+    
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   padding: 0px 40px;
+}
+
+.nav_container h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #f9f9f9;
+
+}
+
+/* hero section styling */
+
+.poster_section_01{
+    padding-top: 140px;
+
+    width: 100%;
+}
+
+.admin_section{
+    padding-top: 140px;
+}
+
+.poster_section_02{
+    margin-top: 100px;
+}
+
+.hero_container_left{
+    width: 1200px;
+    height: 100%;
+
+    padding: 0 40px;
+
+}
+
+
+/* form styling */
+
+.form_container{
+    width: 100%;
+    height: 500px;
+    
+
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+
+  
+}
+
+.form_container h2{
+    text-align: center;
+    margin-bottom:50px ;
+}
+
+
+.form_main{
+    display: flex;
+}
+
+
+.resultNo{
+    width: 80px;
+}   
+
+.category{
+    width: 240px ;
+}
+
+.RandP{
+    display: flex;
+}
+
+.First_div{
+    display: flex;
+    align-items: center;
+}
+
+.First_div h2{
+    transform: translatey(15px);
+    margin-right: 20px;
+}
+
+.btns{
+    margin-top: 60px;
+    align-self: flex-end;
+    display: flex;
+    
+}
+
+.clear_btn{
+    background-color: transparent;
+    border: none;
+    width: 80px;
+    cursor: pointer;
+}
+
+.submit_btn{
+    width: 200px;
+    margin-right: 40px;
+}
+
+.poster_container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.poster{
+    position: relative;
+}
+.result_display_container{
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+
+    color: #fff;
+    font-family: 'Imperial Script', cursive;
+
+}
+
+
+
+
+ .up{
+    display: flex;
+   
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    
+    text-transform: capitalize;
+   
+}
+
+
+.first_winner_display {
+    position: absolute;
+    top: 205px;
+    left: 70px;
+ 
+ }
+
+
+
+.second_winner_display{
+    position: absolute;
+    top: 265px;
+    left: 70px;
+}
+
+.third_winner_display{
+    position: absolute;
+    top: 320px;
+    left: 70px;
+ 
+
+}
+
+.down{
+    margin-left: 28px;
+    font-style: italic;
+    font-size: 10px;
+    font-family: 'Sofia Sans', sans-serif;
+    margin-top: px;
+    font-weight: 200;
+
+     text-transform: capitalize;
+}
+
+.first_g, .second_g, .third_g{ 
+    margin-left: 9px;
+}
+
+.programe_name{
+    position: absolute;
+    top: 120px;
+    left: 70px;
+    font-size: 34px;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #333e48;
+}
+
+
+.programe_name.p2{
+    top: 127px;
+    left: 90px;
+    color: #236a10;
+}
+
+.programe_name.p3{
+    top: 127px;
+    left: 90px;
+    color: #1c1c1c;
+}
+
+.programe_name.p4{
+    top: 127px;
+    left: 90px;
+    color: #4c0f6c;
+}
+
+.programe_name.p5{
+    top: 127px;
+    left: 90px;
+    color: #135b6c;
+}
+
+
+
+
+.category_display{
+    position: absolute;
+    top: 150px;
+    left: 75px;
+    font-size: 20px;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-weight: 300 ;
+
+}
+
+.category_display.c2{
+    top:110px ;
+    left: 90px;
+    color: #1c1c1c;
+}
+
+
+
+.category_display.post_3{
+    position: absolute;
+    top: 120px;
+    left: 70px;
+    font-size: 20px;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-weight: 300 ;
+
+}
+
+.programe_name.post_3{
+    position: absolute;
+    top: 140px;
+    left: 70px;
+    font-size: 34px;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+
+}
+
+
+.dark{
+    color: #f9f9f9;
+}
+
+
+.dark_2{
+    color: #e9e8e8;
+ 
+}
+
+.brown{
+    color: rgb(47, 0, 0);
+}
+
+
+
+.first_winner_display_post_2 {
+    position: absolute;
+    top: 217px;
+    left: 70px;
+ 
+ }
+
+
+
+.second_winner_display_post_2{
+    position: absolute;
+    top: 277px;
+    left: 70px;
+}
+
+.third_winner_display_post_2{
+    position: absolute;
+    top: 333px;
+    left: 70px;
+ 
+
+}
+
+
+.first_winner_display_post_3 {
+    position: absolute;
+    top: 224px;
+    left: 90px;
+ 
+ }
+
+
+
+.second_winner_display_post_3{
+    position: absolute;
+    top: 281px;
+    left: 90px;
+}
+
+.third_winner_display_post_3{
+    position: absolute;
+    top: 337px;
+    left: 90px;
+ 
+
+}
+
+
+
+.first_winner_display_003 {
+    position: absolute;
+    top: 224px;
+    left: 90px;
+ 
+ }
+
+
+
+.second_winner_display_003{
+    position: absolute;
+    top: 281px;
+    left: 90px;
+}
+
+.third_winner_display_003{
+    position: absolute;
+    top: 337px;
+    left: 90px;
+ 
+
+}
+
+
+
+
+.light{
+    color: #000;
+}
+
+.yellow{
+    color: #855408;
+}

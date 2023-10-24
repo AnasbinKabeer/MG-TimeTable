@@ -1,0 +1,9 @@
+@media screen and (max-width:500px) 
+{
+    .container {
+        width: 400px;
+        height: 100vh;
+        background: #ffffff;
+    }
+    
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MG-Admin</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="markazgarden.png" type="image/x-icon" />
+</head>
+
+<body>
+  <header>
+
+    <nav class="nav_container">
+      <h1>Result Panel</h1>
+      <a href="/">Result Page</a>
+      <img class="logo" src="/PNGLOGO.png" alt="" srcset="" height="60px">
+    </nav>
+
+  </header>
+
+  <section class="admin_section">
+    <div class="hero_container_left">
+      
+      <form action="/submit" method="post">
+        <div class="form_container">
+          <h2>Enter Results</h2>
+          <div class="RandP">
+            <div class="result_div">
+              <label for="resultNo">Result No :</label>
+              <input type="number" name="resultNo" id="resultNo" class="resultNo">
+            </div>
+
+            <div class="programe_div">
+              <label for="programe">Programe :</label>
+              <input type="text" name="programe" id="programe" class="programe"><br>
+            </div>
+            <div class="category_div">
+              <label for="category">Category No :</label>
+              <select name="category" id="category" class="category">
+                <option value="General"></option>
+                <option value="General">General</option>
+                <option value="Senior">Senior</option>
+                <option value="Junior">Junior</option>
+                <option value="Sub Junior">Sub Junior</option>
+              </select><br><br><br>
+            </div>
+    
+
+          </div>
+
+
+          <div class="First_div">
+            <h2>1.</h2>
+            <div class="winner">
+              <label for="first_winner"></label>
+              <input type="text" name="first_winner" id="first_winner" class="first_winner" placeholder="First Student Name"><br>
+            </div>
+
+            <div class="winner_father">
+              <label for="first_winner_father"></label>
+              <input type="text" name="first_winner_father" id="first_winner_father" class="first_winner_father" placeholder="Father Name"><br>
+            </div>
+
+          </div>
+
+          <div class="First_div">
+            <h2>2.</h2>
+            <div class="winner">
+              <label for="second_winner"></label>
+              <input  type="text" name="second_winner" id="second_winner" class="first_winner" placeholder="Second Student Name"><br>
+            </div>
+
+            <div class="winner_father">
+              <label for="second_winner_father"></label>
+              <input type="text" name="second_winner_father" id="second_winner_father" class="first_winner_father" placeholder="Father Name"><br>
+            </div>
+
+          </div>
+          
+          <div class="First_div">
+            <h2>3.</h2>
+            <div class="winner">
+              <label for="third_winner"></label>
+              <input  type="text" name="third_winner" id="third_winner" class="first_winner" placeholder="Third Student Name"><br>
+            </div>
+
+            <div class="winner_father">
+              <label for="third_winner_father"></label>
+              <input type="text" name="third_winner_father" id="third_winner_father" class="first_winner_father" placeholder="Father Name"><br>
+            </div>
+
+          </div>
+<div class="btns"><input type="reset" value="Clear" class="clear_btn">
+  <input type="submit" value="Submit" class="submit_btn"></div>
+
+      </form>
+    </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
